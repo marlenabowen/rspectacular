@@ -1,20 +1,22 @@
 #README
 
-#### To get started, clone this repo into a new directory:
+### To get started, clone this repo into your home directory:
+
+`$ git clone https://github.com/mebowen/rspectacular`
+
+### To install the latest version of RSpec and all related dependencies, navigate to the directory that contains the Gemfile: 
 
 ```
-$ mkdir rspectacular
+$ cd rspectacular
 
-$ cd rspectacular 
-
-$ git clone https://github.com/mebowen/rspectacular
+$ cd string_calculator
 
 ```
 
-#### To install the latest version of RSpec and all related dependencies, run:
+##### then run:
 
 ` $ bundle install --path .bundle ` 
 
-#### To run the specs, type:
+### To run the specs, type:
 
 ` $ bundle exec rspec`
