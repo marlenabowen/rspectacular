@@ -3,10 +3,12 @@ class StringCalculator
     return 0 if string == ""
     check_for_negative_numbers(string)
   end
-  self.check_for_negative_numbers(string)
+
+  def self.check_for_negative_numbers(string)
     if string.include?("-")
         raise "negatives not allowed"
     end
   end
+  private_class_method :check_for_negative_numbers
 end
 
