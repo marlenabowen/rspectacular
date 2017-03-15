@@ -1,4 +1,4 @@
-#README
+# README
 
 ### To get started, clone this repo into your home directory:
 
